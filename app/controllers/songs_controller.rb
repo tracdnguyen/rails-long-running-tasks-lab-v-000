@@ -45,6 +45,10 @@ class SongsController < ApplicationController
     redirect_to songs_path
   end
 
+  def upload 
+
+  end
+
   private
 
   def song_params
